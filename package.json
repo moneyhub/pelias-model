@@ -1,6 +1,6 @@
 {
-  "name": "pelias-model",
-  "version": "0.0.0-development",
+  "name": "@mft/pelias-model",
+  "version": "10.1.0-mft",
   "author": "pelias",
   "description": "Pelias data models",
   "homepage": "https://github.com/pelias/model",

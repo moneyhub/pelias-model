@@ -4,7 +4,7 @@ const transform = require('./util/transform');
 const _ = require('lodash');
 const codec = require('./codec');
 
-const addressFields = ['name', 'number', 'unit', 'street', 'cross_street', 'zip'];
+const addressFields = ['city', 'name', 'number', 'unit', 'street', 'cross_street', 'zip'];
 
 const parentFields = [
   'continent',

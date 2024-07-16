@@ -39,7 +39,7 @@ The `Document` model is a convenient way of modelling POI and admin records so t
 Using this model ensures that your import script will continue to work even when the underlying schema changes.
 
 ```javascript
-var Document = require('pelias-model').Document;
+var Document = require('@mft/pelias-model').Document;
 
 var poi = new Document( 'geoname', 'venue', 1003 )
   .setMeta( 'author', 'peter' )
